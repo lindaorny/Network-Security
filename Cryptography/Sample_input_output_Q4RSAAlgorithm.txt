@@ -1,0 +1,47 @@
+Test case
+
+#1
+
+
+input:
+6
+7 77
+
+output:
+----RSA Algorithm - Generating the Encrypted Message----
+
+Enter the Message(An Integer): 6
+Enter the public key(e, n): 7 77
+The encrypted message is: 41
+
+
+
+#2
+
+
+input:
+9
+7 143
+
+output:
+----RSA Algorithm - Generating the Encrypted Message----
+
+Enter the Message(An Integer): 9
+Enter the public key(e, n): 7 143
+The encrypted message is: 48
+
+
+
+#3
+
+
+input:
+5
+7 527
+
+output:
+----RSA Algorithm - Generating the Encrypted Message----
+
+Enter the Message(An Integer): 5
+Enter the public key(e, n): 7 527
+The encrypted message is: 129
