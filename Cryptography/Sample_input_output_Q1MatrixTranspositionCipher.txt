@@ -1,0 +1,34 @@
+Test case
+
+#1
+
+Input:
+1
+3412
+Enter the message that would like to be encrypted by Matrix Transposition Cipher: you%guessed%it!%
+
+Output:
+----Matrix Transposition Cipher Calculator----
+
+- Press 1 to encrypt a message / Press 2 to decrypt a message - 
+1
+Enter the key: 3412
+Enter the message that would like to be encrypted by Matrix Transposition Cipher: you%guessed%it!%
+The encrypted message is: ued!%s%%ygsiouet
+
+
+
+#2
+
+Input:
+2
+3412
+ued!%s%%ygsiouet
+
+----Matrix Transposition Cipher Calculator----
+
+- Press 1 to encrypt a message / Press 2 to decrypt a message - 
+2
+Enter the key: 3412
+Enter the message that would like to be decrypted by Matrix Transposition Cipher: ued!%s%%ygsiouet
+The decrypted message is: you%guessed%it!%
