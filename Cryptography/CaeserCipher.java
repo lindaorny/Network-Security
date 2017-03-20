@@ -34,8 +34,7 @@ public class CaeserCipher {
 					.print("Enter the message that would like to be decrypted by Caeser Cipher: ");
 			String DMessage = in.next();
 			String decryptMessage = decrypt(DMessage, key);
-			System.out.println(decryptMessage);
-
+			System.out.println("The decrypted message is: " + decryptMessage);
 		}
 		else {
 			System.out.println("Wrong Input!");
