@@ -1,0 +1,33 @@
+TEST CASE
+
+#1
+
+input:
+1
+SECRET
+ZINCSPGVNU
+
+output:
+----Vigenere Cipher Calculator----
+
+- Press 1 to encrypt a message / Press 2 to decrypt a message - 
+1
+Enter the key in UPPER Case: SECRET
+Enter the message that would like to be encrypted by Vigenere cipher: HELLOWORLD
+The encrypted message is: ZINCSPGVNU
+
+#2
+
+input:
+2
+SECRET
+dssoh
+ZINCSPGVNU
+output:
+----Vigenere Cipher Calculator----
+
+- Press 1 to encrypt a message / Press 2 to decrypt a message - 
+2
+Enter the key in UPPER Case: SECRET
+Enter the message that would like to be decrypted by Vigenere cipher: ZINCSPGVNU
+The decrypted message is: HELLOWORLD
