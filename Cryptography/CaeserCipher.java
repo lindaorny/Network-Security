@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CaeserCipher {
 
+	// Array of alphabet in order
 	final static char alphabet[] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
 			'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
 			'v', 'w', 'x', 'y', 'z' };
@@ -12,6 +13,7 @@ public class CaeserCipher {
 
 		Scanner in = new Scanner(System.in);
 
+		//	Allow the user to choose if they want to encrypt or decrypt a message
 		System.out
 				.println("- Press 1 to encrypt a message / Press 2 to decrypt a message - ");
 
@@ -42,6 +44,7 @@ public class CaeserCipher {
 		in.close();
 	}
 
+	//	Encryption
 	public static String encrypt(String Message, int Key) {
 		String EMessage = "";
 		int textpos = 0;
@@ -59,6 +62,7 @@ public class CaeserCipher {
 		return EMessage;
 	}
 
+	//	Decryption
 	public static String decrypt(String Message, int Key) {
 		String EMessage = "";
 		int textpos = 0;

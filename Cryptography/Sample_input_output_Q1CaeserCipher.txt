@@ -1,0 +1,34 @@
+TEST CASE
+
+#1
+
+input:
+1
+3
+apple
+
+output:
+----Caeser Cipher Calculator----
+
+- Press 1 to encrypt a message / Press 2 to decrypt a message - 
+1
+Enter the Key Value: 3
+Enter the message that would like to be encrypted by Caeser Cipher: apple
+The encrypted message is: dssoh
+
+
+#2
+
+input:
+2
+3
+dssoh
+
+output:
+----Caeser Cipher Calculator----
+
+- Press 1 to encrypt a message / Press 2 to decrypt a message - 
+2
+Enter the Key Value: 3
+Enter the message that would like to be decrypted by Caeser Cipher: dssoh
+The decrypted message is: apple
